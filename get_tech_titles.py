@@ -27,3 +27,5 @@ def get_tech_news_titles(request):
     titles_list = [{"title": title} for title in results]
 
     return jsonify(titles_list)
+
+# optional comment
